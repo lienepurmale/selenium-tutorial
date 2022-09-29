@@ -20,7 +20,7 @@ public class WithConfigurationTest {
 
     @BeforeAll
     public void beforeAll() {
-        driver = browserGetter.getDriver();
+        driver = browserGetter.getChromeDriver();
     }
 
     @AfterAll
