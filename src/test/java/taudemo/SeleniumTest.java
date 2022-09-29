@@ -20,7 +20,7 @@ public class SeleniumTest {
 
     @BeforeAll
     public void beforeAll() {
-        driver = browserGetter.getDriver(); //
+        driver = browserGetter.getChromeDriver();
     }
 
     @AfterAll
@@ -34,11 +34,11 @@ public class SeleniumTest {
         driver.get("https://example.com");
         assertEquals(expectedComTitle, driver.getTitle());
     }
-
-    public void theComPageCheckTitle() {
+    @Test
+    public void theOrgPageCheckTitle() {
         String expectedOrgTitle = "Example title";
         driver.get("https://example.org");
-        assertEquals("Example domain", driver.getTitle());
+        assertEquals(expectedOrgTitle, driver.getTitle());
     }
 
 

@@ -12,7 +12,7 @@ public class WithAssertionsTest {
 
     @Test
     public void firstAssertion() {
-        assertEquals(2, 2);
+        assertEquals(1, 2);
     }
 
     @Test
