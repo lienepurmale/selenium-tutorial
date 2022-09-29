@@ -30,13 +30,13 @@ public class SeleniumTest {
 
     @Test
     public void theComPageCheckTitle() {
-        String expectedComTitle = "Example title";
+        String expectedComTitle = "Example Domain";
         driver.get("https://example.com");
         assertEquals(expectedComTitle, driver.getTitle());
     }
     @Test
     public void theOrgPageCheckTitle() {
-        String expectedOrgTitle = "Example title";
+        String expectedOrgTitle = "Example Domain";
         driver.get("https://example.org");
         assertEquals(expectedOrgTitle, driver.getTitle());
     }

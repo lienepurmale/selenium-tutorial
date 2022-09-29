@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import tutorialsolution.pages.WindowsPage;
 
-import java.io.File;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

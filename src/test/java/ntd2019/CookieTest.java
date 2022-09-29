@@ -4,10 +4,6 @@ import browser.BrowserGetter;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
-import pages.InteractionsPage;
-
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
