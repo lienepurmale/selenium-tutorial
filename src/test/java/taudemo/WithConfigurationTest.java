@@ -10,8 +10,11 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.TestInstance.Lifecycle.PER_CLASS;
 
+
+//Test Automation University exercise
 @TestInstance(PER_CLASS)
 public class WithConfigurationTest {
+
     private BrowserGetter browserGetter = new BrowserGetter();
     private WebDriver driver;
 
