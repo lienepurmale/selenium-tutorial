@@ -29,8 +29,15 @@ public class SeleniumTest {
     }
 
     @Test
-    public void justTest() {
+    public void theComPageCheckTitle() {
+        String expectedComTitle = "Example title";
         driver.get("https://example.com");
+        assertEquals(expectedComTitle, driver.getTitle());
+    }
+
+    public void theComPageCheckTitle() {
+        String expectedOrgTitle = "Example title";
+        driver.get("https://example.org");
         assertEquals("Example domain", driver.getTitle());
     }
 
